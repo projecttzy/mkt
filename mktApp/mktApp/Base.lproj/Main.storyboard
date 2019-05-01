@@ -22,7 +22,7 @@
                                 <rect key="frame" x="192" y="433" width="30" height="30"/>
                                 <state key="normal" title="Test"/>
                                 <connections>
-                                    <segue destination="Gwu-qv-iuK" kind="presentation" id="MSv-w1-5m4"/>
+                                    <segue destination="Gwu-qv-iuK" kind="presentation" identifier="toMain" id="Q0R-MP-ogx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="343" y="71"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="nsx-LW-Oqk">
             <objects>
-                <viewController id="Gwu-qv-iuK" sceneMemberID="viewController">
+                <viewController id="Gwu-qv-iuK" customClass="MainViewController" customModule="mktApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QHp-Nw-qqX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

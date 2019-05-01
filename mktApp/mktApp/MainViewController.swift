@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MainViewController.swift
 //  mktApp
 //
 //  Created by MakotoMorishita on 2019/05/01.
@@ -8,17 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor.gray;
     }
-    
-    @IBAction func buttonTupped(_ sender : Any) {
-        self.performSegue(withIdentifier: "toMain", sender: nil)
-    }
-
-
 }
-
